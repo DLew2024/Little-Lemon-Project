@@ -1,0 +1,49 @@
+@import './variables';
+
+main {
+  height: 100%;
+  width: 100vw;
+  border: 5px pink solid;
+
+  .home_wrapper {
+    .top_content {
+      height: 250px;
+      width: 100%;
+      background-color: green;
+
+      .content {
+        width: $page-width;
+        margin: 0 auto;
+      }
+    }
+    .bottom_content {
+      margin: 100px auto 0 auto;
+      width: $page-width;
+      border: 5px black solid;
+
+      .title_container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .card_wrapper {
+        .card_container {
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+
+  .btn {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}

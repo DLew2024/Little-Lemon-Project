@@ -1,0 +1,25 @@
+@import './variables';
+
+.card {
+  background-color: black;
+  height: max-content;
+  width: 200px;
+  color: white;
+  border-radius: $card-radius;
+
+  .card_image_container {
+    border-top-right-radius: $card-radius;
+    border-top-left-radius: $card-radius;
+    background-color: red;
+    height: 100px;
+  }
+
+  .card_content {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      margin: 10px;
+    }
+  }
+}
