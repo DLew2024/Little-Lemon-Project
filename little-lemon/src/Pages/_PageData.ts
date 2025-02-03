@@ -10,7 +10,7 @@ export const homeContent = {
   subcontent:
     'We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist',
   buttonTitle: 'Reserve a Table',
-  thisWeekTitle: 'This weeks a special!',
+  thisWeekTitle: 'This weeks special!',
   thisWeekButton: 'Online Menu',
 };
 

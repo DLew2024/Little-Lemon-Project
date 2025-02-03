@@ -1,17 +1,18 @@
 // Variables
-$primary-color: black;
+$primary-color: yellow;
 $accent-color: green;
 $text-color: #fff;
+$accent-text-color: black;
+$price-color: orange;
+$card_background_color: lightgray;
 
-// Maps
-$font-weights: (
-  'regular': 400,
-  'medium': 500,
-  'bold': 700,
-);
+// Font Families
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-// Width
-$page-width: 70%;
+// Page Width
+$page-width: 50%;
 
 // Card border radius
 $card-radius: 10px;
+
+

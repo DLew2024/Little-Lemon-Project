@@ -1,44 +1,20 @@
 @import './resets';
+@import './mixins';
 @import './variables';
 
-// // functions for returning values 
-// @function weight($weight-name) {
-//   @return map-get($font-weights, $weight-name);
-// }
+// Default app styles
+body {
+  background: $text-color;
+  color: $accent-text-color;
+  height: 100%;
+  font-family: $font-family;
+}
 
-// // mixins define styles
-// @mixin flexContainer($direction) {
-//   display: flex;
-//   justify-content: center;
-//   align-content: center;
-//   flex-direction: $direction;
-// }
+a {
+  color: $accent-text-color;
+  text-decoration: none;
+}
 
-// @mixin theme($light-theme: true) {
-//   @if $light-theme {
-//     background: lighten($primary-color, 100%);
-//     color: darken($text-color, 100%);
-//   }
-// }
-
-// body {
-//   background-color: $primary-color;
-//   color: $text-color;
-// }
-
-// centers elements
-// .main {
-//   @include flexContainer(row);
-//   width: 80%;
-//   margin: 0 auto;
-
-//   // ampersand equals the parent
-//   #{&}__paragraph {
-//     font-weight: weight(regular);
-
-//     &:hover {
-//       color: pink;
-//     }
-//   }
-// }
-
+@import './navbar';
+@import './home';
+@import './card';

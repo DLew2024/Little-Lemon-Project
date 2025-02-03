@@ -1,0 +1,40 @@
+@import './variables';
+
+header {
+  width: 100%;
+}
+
+.nav_wrapper {
+  height: 80px;
+}
+
+.nav_container {
+  width: $page-width;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo_container {
+    //
+  }
+
+  .links_container {
+    ul {
+      list-style: none;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      margin: 15px;
+      &:hover {
+        color: springgreen;
+        text-decoration: underline;
+      }
+    }
+  }
+}
