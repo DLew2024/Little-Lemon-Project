@@ -1,17 +1,17 @@
 // Variables
-$primary-color: black;
-$accent-color: green;
-$text-color: #fff;
+$primary_color: #f4ce14;
+$accent_color: #495e57;
+$white_text: white;
+$secondary_text_color: #333333;
+$price_color: #ee9972;
+$card_background_color: #edefee;
 
-// Maps
-$font-weights: (
-  'regular': 400,
-  'medium': 500,
-  'bold': 700,
-);
+// Font Families
+$font_family: 'Markanzi', 'Times New Roman', Times, serif;
+$secondary_font_family:  Helvetica;
 
-// Width
-$page-width: 70%;
+// Page Width
+$page_width: 50%;
 
 // Card border radius
-$card-radius: 10px;
+$card_radius: 10px;

@@ -1,24 +1,28 @@
-import '../dist/css/Navbar.css';
+import logo from '../Images/icons/Logo.svg';
 
 const Navbar = () => {
   return (
-    <nav className="nav-container">
-      <div className="nav-wrapper">
-        <div className="logo-container">
-          <img src="" alt="" />
+    <header>
+      <nav className="nav_wrapper">
+        <div className="nav_container">
+          <div className="logo_container">
+            <img src={logo} alt="Logo" />
+          </div>
+          <div className="links_container">
+            <ul>
+              <li>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Reservations</a>
+                <a href="">Order Online</a>
+                <a href="">Login</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul className='nav-links'>
-          <li>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Menu</a>
-            <a href="">Reservations</a>
-            <a href="">Order Online</a>
-            <a href="">Login</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

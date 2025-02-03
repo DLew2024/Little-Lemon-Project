@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bottom_content .title_container .btn, .btn {
+  background-color: #f4ce14;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+body {
+  background: white;
+  color: #333333;
+  height: 100%;
+  font-family: "Markanzi", "Times New Roman", Times, serif;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+}
+
+.nav_wrapper {
+  height: 80px;
+}
+
+.nav_container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_container .logo_container {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.nav_container .logo_container img {
+  height: 40px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nav_container .links_container ul {
+  list-style: none;
+}
+.nav_container .links_container li {
+  display: inline-block;
+  font-size: 14px;
+}
+.nav_container .links_container a {
+  font-size: 12px;
+  font-family: Helvetica;
+  font-weight: 700;
+  margin: 13px;
+}
+.nav_container .links_container a:hover {
+  color: #495e57;
+  text-decoration: underline;
+}
+
+.bottom_content .title_container .btn, .btn {
+  background-color: #f4ce14;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.top_content {
+  padding: 20px 0 20px 0;
+  background-color: #495e57;
+}
+.top_content .main_content {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+.top_content .main_content__inner {
+  width: 230px;
+}
+.top_content .main_content__inner h1 {
+  font-weight: 500;
+  color: #f4ce14;
+  font-size: 40px;
+}
+.top_content .main_content__inner h3 {
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+}
+.top_content .main_content__inner p {
+  font-size: 17px;
+  padding: 20px 0px;
+  color: white;
+}
+.top_content .main_content .image_container {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  border-radius: 16px;
+  position: relative;
+}
+.top_content .main_content .image_container img {
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bottom_content {
+  margin: 100px auto;
+  width: 50%;
+}
+.bottom_content .title_container {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_content .title_container h1 {
+  font-size: 40px;
+}
+.bottom_content .title_container .btn {
+  padding: 10px 25px;
+}
+.bottom_content .card_container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #edefee;
+  height: 385px;
+  width: 205px;
+  color: #333333;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.card_image_container {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 150px;
+}
+.card_image_container img {
+  height: 150px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card_content {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.card_content .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.card_content .heading #title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.card_content .heading p:last-child {
+  color: #ee9972;
+}
+.card_content .details {
+  height: 100px;
+  margin: 30px 0;
+  color: #ee9972;
+  font-weight: 500;
+}
+.card_content .delivery_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 137px;
+  cursor: pointer;
+}
+.card_content .delivery_wrapper:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.card_content .delivery_wrapper img {
+  height: 25px;
+  width: auto;
+}/*# sourceMappingURL=App.css.map */

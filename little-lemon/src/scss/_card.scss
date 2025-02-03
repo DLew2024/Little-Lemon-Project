@@ -1,0 +1,74 @@
+@import './variables';
+
+.card {
+  background-color: $card_background_color;
+  height: 385px;
+  width: 205px;
+  color: $secondary_text_color;
+  border-top-right-radius: $card_radius;
+  border-top-left-radius: $card_radius;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+  &_image_container {
+    border-top-right-radius: $card_radius;
+    border-top-left-radius: $card_radius;
+    height: 150px;
+
+    img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      border-top-right-radius: $card_radius;
+      border-top-left-radius: $card_radius;
+    }
+  }
+
+  &_content {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+
+      #title {
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      p {
+        &:last-child {
+          color: $price_color;
+        }
+      }
+    }
+
+    .details {
+      height: 100px;
+      margin: 30px 0;
+      color: $price_color;
+      font-weight: 500;
+    }
+
+    .delivery_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 137px;
+      cursor: pointer;
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      img {
+        height: 25px;
+        width: auto;
+      }
+    }
+  }
+}
