@@ -1,6 +1,7 @@
 import { homeContent, specials } from './_PageData';
 import Card from '../Components/Card';
 import Navbar from '../Components/Navbar';
+import foodImage from '../Images/restauranfood.jpg';
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
                 <button className="btn">{homeContent.buttonTitle}</button>
               </div>
               <div className="image_container">
-                <img src="" alt="" />
+                <img src={foodImage} alt="" />
               </div>
             </div>
           </div>
@@ -29,10 +30,11 @@ const Home = () => {
             <div className="card_container">
               {specials.map((item) => {
                 return (
-                  <Card
+                  <Card key={item.title}
                     title={item.title}
                     price={item.price}
                     imgUrl={item.imgUrl}
+                    description={item.description}
                   />
                 );
               })}

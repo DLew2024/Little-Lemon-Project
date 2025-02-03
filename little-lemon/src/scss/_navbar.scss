@@ -17,7 +17,16 @@ header {
   align-items: center;
 
   .logo_container {
-    //
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 40px;
+      width: auto;
+      object-fit: cover;
+    }
   }
 
   .links_container {
@@ -27,12 +36,16 @@ header {
 
     li {
       display: inline-block;
+      font-size: 14px;
     }
 
     a {
-      margin: 15px;
+      font-size: 12px;
+      font-family: $secondary_font_family;
+      font-weight: 700;
+      margin: 13px;
       &:hover {
-        color: springgreen;
+        color: $accent_color;
         text-decoration: underline;
       }
     }

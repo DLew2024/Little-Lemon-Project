@@ -1,10 +1,12 @@
+import logo from '../Images/icons/Logo.svg';
+
 const Navbar = () => {
   return (
     <header>
       <nav className="nav_wrapper">
         <div className="nav_container">
           <div className="logo_container">
-            <img src="" alt="" />
+            <img src={logo} alt="Logo" />
           </div>
           <div className="links_container">
             <ul>
